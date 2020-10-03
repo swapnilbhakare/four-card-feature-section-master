@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  /* ### Primary */
+
+  --Red: hsl(0, 78%, 62%);
+  --Cyan: hsl(180, 62%, 55%);
+  --Orange: hsl(34, 97%, 64%);
+  --Blue: hsl(212, 86%, 64%);
+  /* 
+  ### Neutral */
+
+  --VeryDarkBlue: hsl(234, 12%, 34%);
+  --GrayishBlue: hsl(229, 6%, 66%);
+  --VeryLightGray: hsl(0, 0%, 98%);
+
+  /* weights */
+  --weight200: 200;
+  --weight400: 400;
+  --weight600: 600;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.light-gray {
+  padding-top: 80px;
+  color: var(--GrayishBlue);
+  padding-left: 50px;
+  text-align: justify;
+}
+.dark-text {
+  padding-top: 10px;
+  padding-left: 50px;
+
+  text-align: justify;
+}
+.paragraph {
+  padding-top: 20px;
+  color: var(--GrayishBlue);
+
+  text-align: center;
+}
+.supervisor {
+  position: relative;
+  left: -50%;
+  top: 200px;
+  width: 300px;
+  height: 200px;
+  border-top: solid 5px var(--Cyan);
+  box-shadow: 0px 10px 0px rgba(168, 164, 164, 0.19),
+    0 6px 6px hsl(294, 20%, 90%);
+  border-radius: 5px;
+}
+.builder {
+  position: relative;
+  margin-left: 50px;
+  margin-bottom: -50px;
+  left: 50px;
+  top: -100px;
+  width: 300px;
+  height: 200px;
+  border-top: solid 5px var(--Red);
+  box-shadow: 0px 10px 0px rgba(168, 164, 164, 0.19),
+    0 6px 6px hsl(294, 20%, 90%);
+  border-radius: 5px;
+}
+.karma {
+  position: relative;
+  margin-left: 50px;
+  top: -10px;
+  left: 50px;
+  border-top: solid 5px var(--Orange);
+  width: 300px;
+  height: 200px;
+  box-shadow: 0px 10px 0px rgba(168, 164, 164, 0.19),
+    0 6px 6px hsl(294, 20%, 90%);
+  border-radius: 5px;
+}
+.Calculator {
+  position: relative;
+  margin-left: 30px;
+  border-top: solid 5px var(--Blue);
+  top: -370px;
+  left: 400px;
+  margin-top: 20px;
+  width: 300px;
+  height: 200px;
+  box-shadow: 0px 10px 0px rgba(168, 164, 164, 0.19),
+    0 6px 6px hsl(294, 20%, 90%);
+  border-radius: 5px;
+}
+.card-title {
+  text-align: justify;
+  padding-left: 20px;
+  padding-top: 30px;
+}
+.card-text {
+  text-align: left;
+  padding-left: 20px;
+  font-size: 15px;
+}
+.Calculator p {
+  text-align: left;
+  padding-left: 20px;
+  font-size: 15px;
+}
+.Calculator h2 {
+  text-align: justify;
+  padding-left: 20px;
+  padding-top: 30px;
+}
+img {
+  float: right;
+  width: 80px;
+  height: 80px;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+.Calculator img {
+  float: right;
+  width: 80px;
+  height: 80px;
+  padding-top: 20px;
+  padding-right: 20px;
+  margin-bottom: 20px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  bottom: 10px;
+  top: 90%;
+  left: 50%;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
